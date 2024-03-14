@@ -5,7 +5,6 @@ from pydantic import BaseModel
 from repository import Repository
 from logging import getLogger, INFO
 
-
 load_dotenv()
 
 logger = getLogger(__name__)
